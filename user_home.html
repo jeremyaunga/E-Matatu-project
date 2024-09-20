@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user_home.css">
+    <title>E-Matatu Booking</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <h1>E-Matatu Booking</h1>
+            <div class="user-actions">
+                <button id="loginButton">Login</button>
+                <button id="registerButton">Register</button>
+            </div>
+        </header>
+        <main>
+            <h2>Book With Us Today</h2>
+            <form id="bookingForm">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time" required>
+
+                <label for="amount">Amount to Pay:</label>
+                <input type="text" id="amount" name="amount" readonly>
+
+                <button type="submit">Book Now</button>
+
+                <button type="submit">Get Recept</button>
+            </form>
+        </main>
+    </div>
+
+    <!-- Login modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="loginClose">&times;</span>
+            <form id="loginForm">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="username" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="registerClose">&times;</span>
+            <form id="registerForm">
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" name="username" required>
+
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <label for="registerEmail">Email:</label>
+                <input type="email" id="registerEmail" name="email" required>
+
+                <label for="registerPhone">Phone Number:</label>
+                <input type="text" id="registerPhone" name="phone_number" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="user_home.js"></script>
+</body>
+</html>

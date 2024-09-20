@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('E-Matatu project/interiar.jpg') center/cover no-repeat; /* Adjust the path */
+    font-family: 'Arial', sans-serif; /* Change the font if needed */
+}
+
+.header {
+    text-align: center;
+    padding: 40px; /* Increased padding for a larger header */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    color: rgb(15, 12, 177);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px; /* Increase font size for the header */
+}
+
+.content {
+    padding: 40px; /* Increased padding for larger content */
+    color: white;
+    text-align: center;
+}
+
+.content h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px; /* Increased padding for larger heading */
+    font-size: 28px; /* Increase font size for the heading */
+}
+
+.content p {
+    margin: 20px 0; /* Increased margin for larger paragraphs */
+    font-size: 18px; /* Increase font size for paragraphs */
+}
+
+.actions {
+    margin-top: 40px; /* Increased margin for the actions section */
+}
+
+button {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    border: none;
+    border-radius: 8px; /* Increased border radius for rounded corners */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #8bbe8e;
+}

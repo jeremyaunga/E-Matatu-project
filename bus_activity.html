@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bus_activity.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="bus_activity.js" defer></script>
+    <title>Bus Management System</title>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="busSearch" placeholder="Search by Bus Name">
+    </div>
+
+    <div class="graph-container">
+        <canvas id="busGraph" width="800" height="400"></canvas>
+    </div>
+
+    <div class="details-container" id="busDetails">
+        <!-- Bus details will be displayed here -->
+    </div>
+
+    <div class="actions-container">
+        <button id="removeBus">Remove Bus</button>
+        <button id="updateBus">Update Bus</button>
+        <button id="saveChanges">Save Changes</button>
+        <button id="newRegistration">New Registration</button>
+        <button id="saveNewBus">Save New Bus</button>
+    </div>
+</body>
+</html>

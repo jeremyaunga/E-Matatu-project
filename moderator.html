@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moderator.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places" defer></script>
+    <script src="moderator.js" defer></script>
+    <title>Overview </title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Company Overview</h1> 
+        </div>
+    </header>
+    <div class="blurry-background">
+        <!-- Content Container -->
+        <div class="content-container">
+            <p>Number of Workers: <span id="workerCount">...</span></p>
+
+            <canvas id="workerChart" width="400" height="200"></canvas>
+        </div>
+
+        <div id="map"></div>
+            <p>show map<span id="locate buses">...</span></p>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="E-Matatu project/nai_map.jpg" id="view routes">view routes</a>
+            <a href="#" id="bookTicket">Book Ticket</a>
+            <a href="#" id="makePayment">Make Payment</a>
+        </div>
+    </div>
+</body>
+</html>

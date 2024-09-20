@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="route_details.css">
+    <script src="route.js"></script>
+    <title>Route Details</title>
+</head>
+<body>
+    <div class="route-container">
+        <h1>Route Details</h1>
+        <div class="details">
+            <p><strong>Route:</strong> <?php echo $routeName; ?></p>
+            <p><strong>Number of Buses:</strong> <?php echo $numBuses; ?></p>
+            <p><strong>Traffic Condition:</strong> <?php echo $trafficCondition; ?></p>
+        </div>
+        <div class="actions">
+            <button id="updateRoute">Update Route Details</button>
+            <button id="addNewRoute">Add New Route</button>
+        </div>
+    </div>
+</body>
+</html>

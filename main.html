@@ -1,0 +1,54 @@
+<!-- user_home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>User Home - E-Matatu Booking</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <h1>E-Matatu Home</h1>
+            <div class="user-actions">
+                <span>Welcome, <span id="usernameDisplay"></span>!</span>
+                <form id="logoutForm">
+                    <button type="submit">Logout</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <h2>Welcome to E-Matatu Home page<p>we are delighted to cater for your traveling needs</p></h2>
+
+            <!-- Payment Methods -->
+            <section id="paymentMethodsSection">
+                <h3>Payment Methods</h3>
+                <ul id="paymentMethodsList">
+                    <!-- Payment methods will be dynamically added here -->
+                </ul>
+            </section>
+
+            <!-- Booking History -->
+            <section id="bookingHistorySection">
+                <h3>Booking History</h3>
+                <ul id="bookingHistoryList">
+                    <!-- Booking history will be dynamically added here -->
+                </ul>
+            </section>
+
+            <!-- Special Offers -->
+            <section id="specialOffersSection">
+                <h3>Special Offers</h3>
+                <ul id="specialOffersList">
+                    <!-- Special offers will be dynamically added here -->
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

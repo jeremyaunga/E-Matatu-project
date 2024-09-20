@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="driver_home.css">
+    <title>Driver Home</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome, <?php echo $driverName; ?>!</h1>
+        <!-- Add a logout section at the top right -->
+        <a href="login.html" class="logout">Logout</a>
+    </div>
+
+    <div class="content">
+        <h2>Today's Assignment</h2>
+        <p><strong>Route:</strong> <?php echo $route; ?></p>
+        <p><strong>Number of Trips:</strong> <?php echo $numberOfTrips; ?></p>
+
+        <!-- Additional information can be added based on your requirements -->
+
+        <div class="actions">
+            <button id="startTrip">Start Trip</button>
+            <button id="endTrip">End Trip</button>
+        </div>
+    </div>
+
+    <script src="driver_home.js" defer></script>
+</body>
+</html>

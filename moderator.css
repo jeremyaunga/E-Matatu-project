@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.blurry-background {
+    background: url('E-Matatu project/opposite.jpg') center/cover no-repeat;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#workerChart {
+    margin-top: 20px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
